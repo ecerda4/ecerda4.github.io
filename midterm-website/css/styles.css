@@ -1,0 +1,35 @@
+body {
+    font-family:sans-serif;
+    margin: 0rem;
+}
+
+header {
+    color: white;
+    background: #009999;
+    padding: 4rem;
+    text-align: center;
+    
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main {
+    margin: 2rem;
+}
+
+#orderedlist {
+    background-color: #e65c00;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background:  #009999;
+    padding: 2rem;
+}
+

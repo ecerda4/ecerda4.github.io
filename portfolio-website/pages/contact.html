@@ -12,22 +12,26 @@
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("headerMain").style.marginLeft = "250px";
       }
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("headerMain").style.marginLeft = "0px";
       }
 </script>
 
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
+        <div id="headerMain">
         <h1>Ericka Cerda</h1>
-        <h3>Graphic Design Portfolio</h3>
+        <h2>Graphic Design Portfolio</h2>
+        </div>
         <nav>
         <div id="mySidenav" class="sidenav">
            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -38,7 +42,7 @@
         </div>
         </nav>
     </header>
-    <main>
+    <div id="main">
         <h3>Contact</h3>
         <img src="../images/graphic3.jpg" alt="A photo of colorful triangles that form a rectangle shape.">
         <br>
@@ -50,7 +54,7 @@
         <p><strong>Looking to learn more? Learn how to create Type desgins in Illustrator!</strong></p>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rt15_OclsyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-    </main>
     <footer>&copy; Copyright 2019 Ericka Cerda. All rights reserved. </footer>
+    </div>
 </body>
 </html> 

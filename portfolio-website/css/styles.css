@@ -2,6 +2,7 @@ header {
     color: white;
     background: #009999;
     padding: 4rem;
+    /*height: 200px;*/
 }
 
 /*nav a {
@@ -19,21 +20,31 @@ body{
     margin: 2rem;
     background-color: #009999;
     color: white;
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;  
 }
 h1{
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
-
+    letter-spacing: 2px;
+    padding: 0px;
+    margin: 0px;
 }
-
+h2{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
 h3{
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     text-align: center;
+    letter-spacing: 2px;
+   
 }
 .sidenav {
   height: 100%;
@@ -71,7 +82,7 @@ h3{
 }
 #headerMain {
   transition: margin-left .5s;
-  padding: 20px;
+  /*padding: 20px;*/
   text-align: center;
 }
 #main {

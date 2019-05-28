@@ -12,22 +12,26 @@
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("headerMain").style.marginLeft = "250px";
       }
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("headerMain").style.marginLeft = "0px";
       }
 </script>
 
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        <h1>Ericka Cerda</h1>
-        <h3>Graphic Design Portfolio</h3>
+        <div id="headerMain">
+            <h1>Ericka Cerda</h1>
+            <h2>Graphic Design Portfolio</h2>
+        </div>
         <nav>
         <div id="mySidenav" class="sidenav">
            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -38,7 +42,7 @@
         </div>
         </nav>
     </header>
-    <main>
+    <div id="main">
         <h3>Projects</h3>
         <img src="../images/graphic4.jpg" alt="An illustration of a hand with different colors and patterns.">
         <br>
@@ -55,7 +59,7 @@
         
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eros elit, auctor ut dignissim a, tempus quis dolor. Suspendisse laoreet mollis vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget faucibus erat. Vestibulum sit amet eros enim. Duis ac mi quis lacus mattis euismod. Maecenas ut posuere tortor. Integer eleifend ex aliquet mi lacinia, quis venenatis nisl aliquet. Nunc placerat leo urna, nec maximus nisl aliquam et. Donec in volutpat lectus. Sed justo ex, suscipit vitae molestie id, pharetra vel purus. Aliquam sed purus at enim sodales hendrerit. Maecenas convallis sagittis sagittis. Nam augue magna, hendrerit eget mauris ac, venenatis facilisis lorem. Sed volutpat erat facilisis, malesuada mi ut, volutpat nunc. Donec porttitor efficitur tellus ut lacinia.</p>
     
-    </main>
     <footer>&copy; Copyright 2019 Ericka Cerda. All rights reserved. </footer>
+    </div>
 </body>
 </html> 

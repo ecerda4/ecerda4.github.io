@@ -21,7 +21,7 @@ body{
     
 }
 
-.homePic{
+#homePic{
   background-image: url(/images/new8.jpg);
   background-size: cover;
   background-repeat: no-repeat;

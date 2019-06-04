@@ -13,7 +13,7 @@ body{
     margin-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 0rem;
-    /*background-color: #009999;*/
+    background-color: #009999;
     color: white;
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -23,7 +23,7 @@ body{
 
 .homePic{
   background-image: url(/images/new8.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   height: 100%;

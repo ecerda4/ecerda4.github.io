@@ -13,14 +13,16 @@ body{
     margin-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 0rem;
+    
+}
+
+#normBod{
     background-color: #009999;
     color: white;
     font-family: 'Roboto', sans-serif;
     height: 100%;
     padding:0;
-    
 }
-
 #homePic{
   background-image: url(/images/new8.jpg);
   background-size: cover;

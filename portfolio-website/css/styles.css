@@ -35,7 +35,7 @@ body{
     float: right;
     font-size: 26px;
     line-height: 30px;
-    width: auto;
+    width: 100%;
     height: 100%;
    
 }
@@ -212,9 +212,25 @@ footer {
     h3{
         font-size: 8vw;
     }
-    .sidenav{
-        width: auto;
-    }
+
     .rightText{
-        font-size: 7vw;
+        font-size: 5vw;
+        text-align: right;
+    }
+    .projects{
+        float:none;
+    }
+    body{
+        margin-right: 0rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .newHead{
+        float: right;
+        text-align: right;
+    }
+    .newHeadTwo{
+        clear:right;
+        float:right;
+        text-align: right;
     }

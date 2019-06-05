@@ -40,11 +40,9 @@ body{
    
 }
 
-#aboutImg{
-     
-    
-    
+#aboutImg{   
 }
+
 #main {
     transition: margin-left .5s;
 }
@@ -213,4 +211,10 @@ footer {
     }
     h3{
         font-size: 8vw;
+    }
+    .sidenav{
+        width: auto;
+    }
+    .rightText{
+        font-size: 7vw;
     }

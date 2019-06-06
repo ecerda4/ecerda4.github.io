@@ -84,6 +84,7 @@ h3{
     font-family: 'Oswald', sans-serif;
     font-size: 88px;
     text-align: right;
+    float:right;
 
     
    
@@ -98,6 +99,8 @@ h3{
     font-size: 60px;
     text-align: right;
     letter-spacing: 1px;
+    clear:right;
+    float: right;
    
     
     
@@ -113,6 +116,7 @@ h3{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  clear: right;
 }
 
 .sidenav a {
@@ -163,13 +167,13 @@ h3{
 }
 
 .projects {
-  margin-top: 45px;
-  margin-left: 68px;
-  margin-right: 68px;
-  border: 1px solid ;
-  float: left;
-  display: inline-block;
-  width: 400px;
+    margin-top: 45px;
+    margin-left: 68px;
+    margin-right: 68px;
+    border: 1px solid ;
+    clear:right;
+    float: left;
+    width: 400px;
 }
 
 .projects:hover {
@@ -219,6 +223,7 @@ footer {
     }
     .projects{
         float:none;
+        margin: 0;
     }
     body{
         margin-right: 0rem;
@@ -234,3 +239,4 @@ footer {
         float:right;
         text-align: right;
     }
+    

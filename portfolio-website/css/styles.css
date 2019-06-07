@@ -170,14 +170,13 @@ h3{
     margin-top: 45px;
     margin-left: 68px;
     margin-right: 68px;
-    /*border: 1px solid ;*/
+    
     clear:right;
     float: left;
     width: 400px;
 }
 
 .projects:hover {
-  border: 2px solid #ff8533;
   opacity: 0.8;
   filter: alpha(opacity=50);
 }

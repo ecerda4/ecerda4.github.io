@@ -22,7 +22,7 @@ body{
 }
 
 .homePic{
-  background-image: url(../images/new8.jpg);
+  background-image: url(../images/newPic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -85,10 +85,15 @@ h3{
     padding: 0px;
     margin: 0px;
     border-bottom: 4px solid #ff8533;
-   
-    
+       
 }
 
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+}
 .newHead{
     position: absolute;
     right: 20px;
@@ -108,11 +113,9 @@ h3{
     text-align: right;
     letter-spacing: 1px;
     clear:right;
-    float: right;
-   
-    
-    
+    float: right;      
 }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -154,6 +157,23 @@ h3{
   padding: 100px;
 }
 
+.aboutList{
+    margin-top: 0px;
+    list-style-type: none;
+}
+.aboutList a{
+    color:white;
+    text-decoration: none;
+}
+.aboutList a:hover{
+   color: #ff8533; 
+}
+
+.myList{
+    text-align: right;
+    float: right;
+    clear: right;
+}
 .mainTitle{
     font-size: 8vw;
     color: white;
@@ -169,6 +189,8 @@ h3{
    float:right;
    text-align: right;
 }
+
+
 @media screen and (max-height: 450px){
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

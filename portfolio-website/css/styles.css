@@ -22,7 +22,7 @@ body{
 }
 
 .homePic{
-  background-image: url(../images/newPic.jpg);
+  background-image: url(../images/main.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
